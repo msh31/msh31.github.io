@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  font-family: "Roboto Mono";
+  background-color: #181818;
+}
+
+.headerText {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+  text-align: center;
+  color: whitesmoke;
+  font-weight: 900;
+}
+
+.cards-wrapper {
+  column-gap: 8px;
+}
+
+.navbar-custom {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.navbar-custom .navbar-brand {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 28px;
+  margin-left: 10px;
+}
+.navbar-custom .nav-link, 
+.navbar-custom .start-project {
+  color: #ffffff; 
+  font-size: 16px;
+  float: left; /* Float the elements */
+}
+/* .navbar-custom .start-project {
+  font-weight: bold;
+  margin-top: -9px;
+} */
+.navbar-custom .divider {
+  display: inline;
+  /* margin-left: 5px; */
+  margin-right: 10px;
+  margin-top: 5px;
+  font-size: 24px;
+  line-height: 1;
+  color: white; 
+  float: left;
+}
+/* Greater-Than Sign
+.navbar-custom .start-project:after {
+  content: ' >'; 
+  font-size: 24px; 
+} */
