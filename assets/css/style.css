@@ -19,6 +19,20 @@ body {
   column-gap: 8px;
 }
 
+.nav-link {
+  cursor: pointer; 
+  transition: opacity 0.3s ease-in-out; 
+}
+
+.nav-link:not(:hover) {
+  opacity: 0.8;
+  cursor: default;
+}
+
+.nav-link:hover {
+  opacity: 1; 
+}
+
 .navbar-custom {
   padding-top: 15px;
   padding-bottom: 15px;
@@ -33,7 +47,7 @@ body {
 .navbar-custom .start-project {
   color: #ffffff; 
   font-size: 16px;
-  float: left; /* Float the elements */
+  float: left; 
 }
 /* .navbar-custom .start-project {
   font-weight: bold;
