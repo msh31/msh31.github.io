@@ -5,6 +5,12 @@ body {
   background-color: #181818;
 }
 
+.spotifyEmbed {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
 .headerText {
   display: flex;
   justify-content: center;
