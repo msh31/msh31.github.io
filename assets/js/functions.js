@@ -1,3 +1,0 @@
-function collab() {
-    alert("hi!");
-}
