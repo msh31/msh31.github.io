@@ -24,7 +24,7 @@ function typingAnimation() {
     } else {
       deleting = true; 
     }
-  }, 300); 
+  }, 1000); 
 }
 
 setInterval(typingAnimation, 2000); 

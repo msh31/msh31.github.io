@@ -2,24 +2,127 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" type="image/x-icon" href="src/favicon.ico">
-  <link rel="stylesheet" href="dist/output.css">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap">
-  <script src="src/script.js" defer></script> <!-- Corrected script tag -->
-  <title>Marco's Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="src/favicon.ico">
+    <link rel="stylesheet" href="dist/output.css">
+    <link rel="stylesheet" href="src/style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" rel="stylesheet" />
+    <title> Marco's Portfolio </title>
 </head>
 
-<body class="font-inter bg-[#f1e8d9]">
-  <h1 class="text-6xl md:text-8xl font-bold text-[#262626]">
-    Mar<span class="relative inline-block" id="animated-letter-container">
-      <span id="animated-letter">c</span>
-      <img src="src/wave.png" alt="wave" class="absolute bottom-0 left-0 opacity-0" id="wave">
-    </span>o H.
-  </h1>
-  
-  <h1 class="text-2xl font-regular text-[#53524f]">software engineer</h1>
+<body class="flex items-center justify-center min-h-screen p-8 ">
+    <div class="max-w-7xl mx-auto">
+        <header class="flex justify-between items-center mb-12">
+            <div>
+                <h1 class="text-8xl font-bold">Marco H.</h1>
+                <p class="text-xl text-gray-600">software engineer</p>
+            </div>
+            <div class="flex items-center space-x-4">
+                <button class="bg-gray-800 text-white p-2 rounded-xl">
+                    <i class="fas fa-globe"></i>
+                </button>
+                <button class="bg-gray-800 text-white p-2 rounded-full">
+                    <i class="fas fa-moon"></i>
+                </button>
+            </div>
+        </header>
+        <div class="flex space-x-12 mb-12">
+            <div class="w-1/3 space-y-6">
+                <div>
+                    <h2 class="text-2xl font-bold mb-2">Skills</h2>
+                    <div class="bg-[#DDD2C0] p-4 rounded-lg space-y-2">
+                        <div class="flex items-center space-x-2">
+                            <i class="devicon-csharp-plain "></i>
+                            <span>C#</span>
+                        </div>
+                        <div class="flex items-center space-x-2">
+                            <i class="devicon-python-plain "></i>
+                            <span>Python</span>
+                        </div>
+                        <div class="flex items-center space-x-2">
+                            <i class="devicon-html5-plain "></i>
+                            <span>HTML</span>
+                        </div>
+                        <div class="flex items-center space-x-2">
+                            <i class="devicon-css3-plain "></i>
+                            <span>CSS</span>
+                        </div>
+                        <div class="flex items-center space-x-2">
+                            <i class="devicon-javascript-plain "></i>
+                            <span>JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <h2 class="text-2xl font-bold mb-2">Frameworks</h2>
+                    <div class="bg-[#DDD2C0] p-4 rounded-lg space-y-2">
+                        <div class="flex items-center space-x-2">
+                            <i class="devicon-bootstrap-plain "></i>
+                            <span>Bootstrap</span>
+                        </div>
+                        <div class="flex items-center space-x-2">
+                            <i class="devicon-tailwindcss-plain "></i>
+                            <span>TailwindCSS</span>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <h2 class="text-2xl font-bold mb-2">Tools</h2>
+                    <div class="bg-[#DDD2C0] p-4 rounded-lg space-y-2">
+                        <div class="flex items-center space-x-2">
+                            <i class="devicon-rider-plain "></i>
+                            <span>JetBrains Rider</span>
+                        </div>
+                        <div class="flex items-center space-x-2">
+                            <i class="devicon-visualstudio-plain "></i>
+                            <span>Visual Studio</span>
+                        </div>
+                        <div class="flex items-center space-x-2">
+                            <i class="devicon-vscode-plain "></i>
+                            <span>Visual Studio Code</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="w-2/3">
+                <p class="text-gray-700 mb-6">
+                    In a sunlit grove, two oranges named Oliver and Olivia lived side by side. Oliver dreamed of
+                    adventure, eager to explore the world, while Olivia loved the peace of their home.
+                    <br>
+                    <br>
+                    One day, a strong wind whisked them away, and they landed at a bustling market. Oliver was thrilled,
+                    but Olivia missed their quiet tree. As they were made into juice, Olivia realized that joy wasn’t
+                    just in adventure, but in the connections they made along the way.
+                    <br>   
+                    <br>
+                    "Home doesn’t have to be a place," she said. "It’s where we find joy." Oliver smiled, realizing she
+                    was right. Together, they found happiness in both adventure and peace, side by side.
+                </p>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <p class="text-4xl font-bold text-gray-900">
+                    “It’s not a bug; it’s an undocumented feature.”
+                </p>
+            </div>
+        </div>
+
+        <footer class="mt-12 text-center text-gray-600">
+            designed in Figma, built with <span class="font-bold">TailwindCSS</span> in <span class="font-bold">Visual
+                Studio Code</span>
+        </footer>
+    </div>
 </body>
 
 </html>

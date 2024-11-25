@@ -2,7 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
-#wave {
-  transition: opacity 0.3s ease-in-out;
-  width: 30px; 
+.wave {
+    transition: opacity 0.3s ease-in-out;
+    width: 30px;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #f5f0e1;
+  overflow: hidden;
 }
